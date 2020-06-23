@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-SiteSubscriptionServer-CF57DE30-34BA-4B1D-9A37-EEF69761BBE8</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceInterfaces\ServiceInterfaces.csproj" />
+    <ProjectReference Include="..\SiteSubscription.Data\SiteSubscription.Data.csproj" />
+  </ItemGroup>
+</Project>

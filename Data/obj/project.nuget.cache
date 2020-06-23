@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "vfDGs5/wtezi47gvCivvLWcUOWFOziUi5YvvMEaTiFf7ZxfUt3jsSFCb/BK5cqLf5iHWFOUyLBhouV5+TilXQA==",
+  "success": true,
+  "projectFilePath": "D:\\Documentos\\Playground\\SignalRPoC\\DataUpdatingWithSignalR\\Data\\Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GSO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\GSO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

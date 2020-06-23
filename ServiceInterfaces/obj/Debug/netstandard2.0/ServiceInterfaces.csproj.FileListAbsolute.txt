@@ -1,0 +1,9 @@
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\bin\Debug\netstandard2.0\ServiceInterfaces.deps.json
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\bin\Debug\netstandard2.0\ServiceInterfaces.dll
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\bin\Debug\netstandard2.0\ServiceInterfaces.pdb
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\obj\Debug\netstandard2.0\ServiceInterfaces.csprojAssemblyReference.cache
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\obj\Debug\netstandard2.0\ServiceInterfaces.AssemblyInfoInputs.cache
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\obj\Debug\netstandard2.0\ServiceInterfaces.AssemblyInfo.cs
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\obj\Debug\netstandard2.0\ServiceInterfaces.csproj.CoreCompileInputs.cache
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\obj\Debug\netstandard2.0\ServiceInterfaces.dll
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\ServiceInterfaces\obj\Debug\netstandard2.0\ServiceInterfaces.pdb
