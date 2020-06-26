@@ -10,6 +10,14 @@ namespace SiteSubscriptionServer
     {
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder => builder
+                    .WithOrigins("http://localhost:4200")
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials());
+            });
             services.AddSignalR();
             services.AddHostedService<Worker>();
         }
@@ -22,6 +30,7 @@ namespace SiteSubscriptionServer
             }
 
             app.UseRouting();
+            app.UseCors("CorsPolicy");
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapHub<SiteHub>("/hubs/site");

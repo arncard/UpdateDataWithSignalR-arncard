@@ -31,7 +31,7 @@ namespace SiteSubscriptionServer
                 //var timerManager = new TimerManager(() => _siteHub.Clients.All.SendSiteMessage("Message sent to site"));
                 //await _siteHub.Clients.All.SendAsync(, "Message sent to site");
                 await sendMessagesToClients();
-                await Task.Delay(10000, stoppingToken);
+                await Task.Delay(2000, stoppingToken);
             }
         }
 
