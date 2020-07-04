@@ -42,8 +42,12 @@ D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClie
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\Models.dll
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\ServiceInterfaces.dll
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\SiteSubscription.Data.dll
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\ServiceInterfaces.pdb
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\SiteSubscription.Data.pdb
+D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\Models.pdb
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\obj\Debug\netcoreapp3.1\SiteSubscriptionClient.csprojAssemblyReference.cache
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\obj\Debug\netcoreapp3.1\SiteSubscriptionClient.AssemblyInfoInputs.cache
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\obj\Debug\netcoreapp3.1\SiteSubscriptionClient.AssemblyInfo.cs
@@ -52,7 +56,3 @@ D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClie
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\obj\Debug\netcoreapp3.1\SiteSubscriptionClient.dll
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\obj\Debug\netcoreapp3.1\SiteSubscriptionClient.pdb
 D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\obj\Debug\netcoreapp3.1\SiteSubscriptionClient.genruntimeconfig.cache
-D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\Models.dll
-D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\SiteSubscription.Data.dll
-D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\SiteSubscription.Data.pdb
-D:\Documentos\Playground\SignalRPoC\DataUpdatingWithSignalR\SiteSubscriptionClient\bin\Debug\netcoreapp3.1\Models.pdb

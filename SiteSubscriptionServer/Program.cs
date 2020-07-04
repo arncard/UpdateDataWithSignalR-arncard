@@ -1,5 +1,7 @@
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Logging;
+using System.Net;
 
 namespace SiteSubscriptionServer
 {
@@ -12,9 +14,18 @@ namespace SiteSubscriptionServer
 
         public static IHostBuilder CreateWebHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
+                .ConfigureLogging(loggerFactory => loggerFactory.AddEventLog())
+                .UseWindowsService()
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                              //.UseKestrel(options =>
+                              //{
+                              //    options.Listen(IPAddress.Any, 443, listenOptions =>
+                              //    {
+                              //        listenOptions.UseHttps(@"I:\SignalRTest\star_gensolve_com.pfx", "Rx95b0lz");
+                              //    });
+                              //});
                 });
     }
 }

@@ -9,6 +9,7 @@ namespace SiteSubscription.Data
 {
     public class SiteManager
     {
+        public static int counter = 0;
         public static List<Site> GetSiteListData()
         {
             return new List<Site>
