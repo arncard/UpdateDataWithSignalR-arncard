@@ -43,8 +43,9 @@ namespace SiteSubscriptionServer
             }
             return conn;
         }
-        public void RemoveUserConnection(string connectionId)
+        public void RemoveUserConnection(string connectionId, out bool removed)
         {
+            removed = false;
             //This method will remove the connectionId of user
             lock (userConnectionMapLocker)
             {
@@ -55,6 +56,7 @@ namespace SiteSubscriptionServer
                         if (userConnectionMap[groupName].Contains(connectionId))
                         {
                             userConnectionMap[groupName].Remove(connectionId);
+                            removed = true;
                             break;
                         }
                     }

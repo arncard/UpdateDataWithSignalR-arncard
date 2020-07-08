@@ -30,7 +30,7 @@ namespace SiteSubscriptionServer
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                _logger.LogInformation("Executing at: {time}", DateTimeOffset.Now);                
+                _logger.LogDebug("Executing at: {time}", DateTimeOffset.Now);                
                 await sendMessagesToClients();
                 await Task.Delay(5000, stoppingToken);
             }
@@ -67,7 +67,7 @@ namespace SiteSubscriptionServer
 
         public override async Task StartAsync(CancellationToken cancellationToken)
         {
-            _logger.LogInformation("Starting signalr process at: {time}", DateTimeOffset.Now);
+            _logger.LogDebug("Starting signalr process at: {time}", DateTimeOffset.Now);
             // DO YOUR STUFF HERE
             await base.StartAsync(cancellationToken);
         }

@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
@@ -50,10 +49,16 @@ namespace SiteSubscriptionServer
                 x.SaveToken = true;
                 x.TokenValidationParameters = new TokenValidationParameters
                 {
+                    LifetimeValidator = (before, expires, token, param) =>
+                    {
+                        return expires > DateTime.UtcNow;
+                    },
                     ValidateIssuerSigningKey = true,
                     IssuerSigningKey = SecurityKey,
                     ValidateIssuer = false,
-                    ValidateAudience = false
+                    ValidateAudience = false,
+                    ValidateActor = false,
+                    ValidateLifetime = true
                 };
                 x.Events = new JwtBearerEvents
                 {
@@ -97,6 +102,7 @@ namespace SiteSubscriptionServer
             //            IssuerSigningKey = SecurityKey
             //        };
 
+            //// DO THIS TO GET THE TOKEN FROM THE QUERY STRING
             //        options.Events = new JwtBearerEvents
             //        {
             //            OnMessageReceived = context =>
@@ -150,6 +156,7 @@ namespace SiteSubscriptionServer
             {
                 endpoints.MapHub<SiteHub>("/hubs/site");
             });
+
         }
     }
 }
